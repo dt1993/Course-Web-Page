@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto"> 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="home">Home</a> 
+                    <a class="nav-link" href="#home">Home</a> 
                 </li> 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="about">About</a> 
+                    <a class="nav-link" href="#about">About</a> 
                 </li> 
                 <li class="nav-item"> 
-                    <a class="nav-link" href="promise">Our Promise</a> 
+                    <a class="nav-link" href="#promise">Our Promise</a> 
                 </li> 
             </ul>
         </div>
@@ -75,6 +75,7 @@
       </div>
 
     <!--carousel-->
+    <div id="promise" class="container-fluid">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -87,7 +88,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/blackboard-959608_1920.png" class="d-block w-100" alt="...">
+                <img src="assets/images/blackboard-959608_1920.png" class="d-block" alt="...">
                 <h2>Crystal Clear and Engaging Lectures.</h2>
               </div>
           <div class="carousel-item">
@@ -125,6 +126,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </div>
        
 
     <!--footer-->
@@ -146,8 +148,17 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+    $(function(){ $('.carousel').carousel({
+                        interval: 10000
+                    });
+    });
+          </script>
+
+
 
 </body>
 </html>
