@@ -135,10 +135,12 @@ video#bgvideo{
 
     #home h1{
       margin-bottom: 30px;
+      font-weight: bold;
     }
   
     #home h2 {
       margin-bottom: 50px;
+      font-weight: bold;
     }
 
     #home .btn {
@@ -181,4 +183,26 @@ video#bgvideo{
 
     .aboutImage {
       height: 120px;
+    }
+
+    #promise {
+      padding-top: 100px;
+    }
+
+    #carouselExampleIndicators {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 500px;
+      margin: 0 auto;
+    }
+
+    #d-block w-100 {
+      position: relative;
+      left: auto;
+      right: auto;
+      height: 200px;
     }
