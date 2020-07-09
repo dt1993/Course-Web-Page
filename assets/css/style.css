@@ -193,8 +193,7 @@ video#bgvideo{
       width: 10px;
      height: 10px;
      border-radius: 100%;
-     bottom: -50px;
-   }
+    }
 
    .carousel-item {
     height: 700px;
@@ -209,6 +208,9 @@ video#bgvideo{
       max-height: 600px;
       max-width: 700px;
       margin: 10px auto;
+      width: auto;
+      height: 400px;
+      object-fit: contain;
     }
 
     .carousel-inner .carousel-item {
@@ -218,7 +220,7 @@ video#bgvideo{
 
     .carousel-inner .carousel-item h2{
       width: 700px;
-      margin: 10px auto;
+      margin: 5px auto;
     }
 
     #d-block {
