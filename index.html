@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#mynavBar">
 
     <!--video in body-->
     <video autoplay loop muted id ="bgvideo">
@@ -17,7 +17,7 @@
     </video>
 
     <!--navbar with scrollspy-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top" id="mynavBar">
         <a class="navbar-brand" href="#">Complete Web Development</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -130,6 +130,13 @@
        
 
     <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p>&copy; Developed by Eric</p>
+
+        </div>
+
+    </div>
 
     
 
