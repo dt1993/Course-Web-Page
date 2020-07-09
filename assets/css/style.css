@@ -193,7 +193,12 @@ video#bgvideo{
       width: 10px;
      height: 10px;
      border-radius: 100%;
+     bottom: -50px;
    }
+
+   .carousel-item {
+    height: 700px;
+}
 
     #carouselExampleIndicators {
       margin: 0 auto;
@@ -207,7 +212,7 @@ video#bgvideo{
     }
 
     .carousel-inner .carousel-item {
-      padding-bottom: 40px;
+      padding-bottom: 50px;
       color: #ffffff;
     }
 
