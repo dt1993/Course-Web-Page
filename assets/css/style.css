@@ -125,4 +125,35 @@ video#bgvideo{
     .navbar-custom .navbar-link:hover {
       color: #ffffff;
     }
+
+    #home {
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 15%;
+    }
+
+    #home h1{
+      margin-bottom: 30px;
+    }
   
+    #home h2 {
+      margin-bottom: 50px;
+    }
+
+    #home .btn {
+      background-color: #1b3759;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 8px 20px;
+      border-radius: 8px;
+    }
+
+    #home .btn:hover {
+      background-color: transparent;
+      border-color: currentColor;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 8px 20px;
+      border-radius: 8px;
+    }
