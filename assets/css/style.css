@@ -128,7 +128,7 @@ video#bgvideo{
 
     #home {
       background-color: transparent;
-      color: #ffffff;
+      color: #1b3759;
       text-align: center;
       padding-top: 15%;
     }
@@ -152,8 +152,33 @@ video#bgvideo{
     #home .btn:hover {
       background-color: transparent;
       border-color: currentColor;
-      color: #ffffff;
+      font-weight: bold;
+      color: #1b3759;
       font-size: 20px;
       padding: 8px 20px;
       border-radius: 8px;
+    }
+
+    .container {
+      max-width: 1000px;
+    }
+
+    #about {
+      color: #ffffff;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    #about h2 {
+      font-weight: bold;
+      padding-top: 30px;
+    }
+
+    #about p {
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+
+    .aboutImage {
+      height: 120px;
     }
